@@ -1,0 +1,14 @@
+{
+	"start": "Start",
+	"restart": "Restart",
+	"ad": "Continue",
+	"highScore": "Highest",
+	"howToPlay": "How to Play?",
+	"tutorial": [
+		"Control the size of the circle so that its size matches the size of the red circle",
+		"Rotate the circle so that the line on it points to the markers on the red circle",
+		"Hurry up to do it in a short time. Each time it will be less",
+		"How many points can you score?",
+		"Gotcha!"
+	]
+}

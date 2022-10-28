@@ -29,6 +29,11 @@ public class GameManager : MonoBehaviour
     private int heavyArmorLevel = 0;
     private int oneHandedLevel = 0;
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
+
     private void Start()
     {
         if (PlayerPrefs.HasKey("HeavyArmorLevel")) heavyArmorLevel = PlayerPrefs.GetInt("HeavyArmorLevel");
